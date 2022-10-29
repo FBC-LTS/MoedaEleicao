@@ -1,0 +1,73 @@
+body{
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+}
+.cont{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	height: 90vh;
+	margin-top: 5vh;
+	background: aliceblue;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px rgba(0,0,0, .212);
+}
+h1{
+	align-self: center;
+	margin-top: 10px;
+	height: 10vh;
+}
+img{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+#flip{
+	margin-bottom: 10px;
+}
+#moeda{
+	max-width: 512px;
+	max-height: 512px;
+
+}
+@media(max-width: 1060px){
+	#moeda, #flip{
+		max-width: 420px;
+    	max-height: 420px;
+	}
+}
+@media(max-width: 498px){
+	#moeda, #flip{
+		max-width: 360px;
+    	max-height: 360px;
+	}
+	#flip{
+		height: 300px;
+	}
+}
+
+
+.box{
+	
+	align-self: center;
+
+}
+
+#toss{
+	
+	top: 70%;
+	margin-bottom: 20px;
+	height: 20vh;
+	align-self: center;
+	width: 50%;
+}
+
+.inv{
+	display: none;
+}
+
+.btn {
+	margin-top: auto;
+	margin-bottom: 5px;
+}
